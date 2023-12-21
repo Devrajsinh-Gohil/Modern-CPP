@@ -12,7 +12,9 @@
     for_each(v.begin(),v.end(),something);
     return 0;
 ```
-    or
+
+OR
+
 ```c++
     vector<int> v{ 1,3,13,24,14,7};
     int d = 10;
