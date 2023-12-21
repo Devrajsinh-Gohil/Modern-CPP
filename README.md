@@ -28,7 +28,7 @@ OR
 
 - we can create a dynamic varible to store various data types.
 
-using `*void`
+using `void*`
 
 ```c++
     int i = 1;
