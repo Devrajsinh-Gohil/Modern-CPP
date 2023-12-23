@@ -23,8 +23,11 @@ OR
 ```
 
 - both will give same output.
+---
 
-## Dynamic typing in cpp
+## Data-types
+
+### Dynamic typing in cpp
 
 - we can create a dynamic varible to store various data types.
 
@@ -65,3 +68,13 @@ using `any` C++17
     cout << "string value: " << any_cast<string>(anyval) << endl;
 ```
 
+---
+
+### Run-Time Type Identification (RTTI)
+
+Run-Time Type Identification (RTTI) is a feature in C++ that allows you to obtain the type information of an object during program execution. This can be useful when using dynamic typing, where the type of an object can change at runtime.
+
+There are two main mechanisms for RTTI in C++:
+
+- `typeid` operator
+- `dynamic_cast` operator
